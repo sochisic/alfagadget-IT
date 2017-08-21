@@ -1,0 +1,165 @@
+body {
+	/*background: white url(images/light-gray-micro-carbon.png) repeat;*/
+	box-sizing: border-box;
+	display: block;
+	font-family: 'PT sans', Arial;
+	height: 384px;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 102px;
+}
+div .item {
+	/* opacity: 0.4;
+	background-color: #fff;
+	background-position: center;
+	border-radius: 10px;
+	transition: opacity .3s ease-in-out; */
+	/*border: 1px solid red;*/
+	box-sizing: border-box;
+	font-weight: 600;
+	height: 32px;
+	position: relative;
+	width: auto;
+	border-left: 1px solid #72a1f1;
+	border-right: 1px solid #72a1f1;
+}
+div .itemfirst {
+	border-top: 1px solid #72a1f1;
+}
+div .itemlast {
+	border-bottom: 1px solid #72a1f1;
+}
+div a:link {
+	text-decoration: none;
+}
+.item a {
+     /*-moz-transition: all .3s ease-in-out;
+     -ms-transition: all .3s ease-in-out;
+     -o-transition: all .3s ease-in-out;
+     -webkit-transition: all .3s ease-in-out;
+     border: none;*/
+     color: #000;
+     display: block;
+     font-size: 0.8em;
+     height: 32px;
+     line-height: 32px;
+     text-align: center;
+     -webkit-transition: all .1s ease-in-out;
+			transition: all .1s ease-in-out;
+		 padding: 0;
+}
+.itemWithoutImage {
+	background: url('images/buttback1.png') no-repeat center;
+}
+.itemWithoutImage:hover {
+	border-left: 5px solid #1852e6;
+	background: url('images/buttback.png') no-repeat center;
+}
+.itemImage a:hover {
+	border-left: 5px solid #1852e6;
+}
+
+/*.item3 {
+	background: white url(images/SAP-Logo1.png) no-repeat center;
+}
+.item5 {
+	background: white url(image3344.png) no-repeat center;
+}
+.item4 {
+	background: white url(image3354.png) no-repeat center;
+}
+.item5 {
+	background: white url(image3344.png) no-repeat center;
+}
+.item6 {
+	background: white url(2gis.png) no-repeat center;
+}
+.item7 {
+	background: white url(image4184.png) no-repeat center;
+}*/
+/*.item:nth-of-type(9), .item:nth-of-type(11),
+.item:nth-of-type(12) {
+	font-size: 0.8em;
+}*/
+/*.showtitle:hover:before {
+	content: attr(data-title);
+	position: absolute;
+	right: 100%;
+	z-index: 1;
+	background:  rgba(255,255,230,0.9);
+	font-family: Arial, sans-serif;
+	padding: 3px 8px; /* Поля */
+	/*border: 1px solid #333;
+	font-size: 11px;
+	text-align: center;
+}*/
+
+
+
+
+/*
+
+
+ .item2 a {
+     line-height: 32px;
+     display: block;
+     text-align: center;
+     height: 100%;
+     color: #000;
+     -ms-transition: all .3s ease-in-out;
+     -webkit-transition: all .3s ease-in-out;
+     -o-transition: all .3s ease-in-out;
+     -moz-transition: all .3s ease-in-out;
+     transition: all .3s ease-in-out;
+
+}
+ .item2 a:hover {
+ 	border-radius: 10px;
+	background-color: red;
+	color: white;
+}
+
+
+
+
+ .item3 a {
+     line-height: 32px;
+     display: block;
+     text-align: center;
+     height: 100%;
+     color: #000;
+     -ms-transition: all .3s ease-in-out;
+     -webkit-transition: all .3s ease-in-out;
+     -o-transition: all .3s ease-in-out;
+     -moz-transition: all .3s ease-in-out;
+     transition: all .3s ease-in-out;
+}
+ .item3 a:hover {
+ 	border-radius: 10px;
+	background-color: red;
+	color: white;
+}
+
+
+
+ .item4 a {
+     line-height: 32px;
+     display: block;
+     text-align: center;
+     height: 100%;
+     color: #000;
+     -ms-transition: all .3s ease-in-out;
+     -webkit-transition: all .3s ease-in-out;
+     -o-transition: all .3s ease-in-out;
+     -moz-transition: all .3s ease-in-out;
+     transition: all .3s ease-in-out;
+}
+ .item4 a:hover {
+ 	border-radius: 10px;
+	background-color: red;
+	color: white;
+}
+*/
